@@ -1,0 +1,3 @@
+add_executable(cf_example_failover basic_failover.cpp)
+target_link_libraries(cf_example_failover PRIVATE cooling_failover)
+cf_apply_warnings(cf_example_failover)

@@ -1,0 +1,3 @@
+add_executable(cf_bench_failover failover_bench.cpp)
+target_link_libraries(cf_bench_failover PRIVATE cooling_failover)
+cf_apply_warnings(cf_bench_failover)

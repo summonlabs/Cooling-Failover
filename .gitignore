@@ -1,0 +1,16 @@
+# Build outputs
+/build/
+/out/
+/install/
+/package/
+*.user
+*.suo
+.vs/
+.vscode/
+CMakeUserPresets.json
+
+# Test and benchmark residue
+*.log
+*.tmp
+*.dmp
+crash-*/
